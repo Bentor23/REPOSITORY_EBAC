@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class componente1 : MonoBehaviour
 {
+    private void Awake()
+    {
+        esfera = this.gameObject;
+    }
+
+    public static GameObject esfera;
     // Start is called before the first frame update
     void Start()
     {
